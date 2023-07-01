@@ -1,0 +1,6 @@
+<!DOCTYPE html> is not a tag in HTML. It is known as a document type declaration (DTD) or document type definition. It is used to specify the version and type of HTML used in the web page.
+The <!DOCTYPE html> declaration is used at the very beginning of an HTML document to inform the web browser about the version of HTML being used and how to interpret the markup code that follows. In this case, <!DOCTYPE html> is used to specify that the document conforms to the HTML5 standard.
+
+The declaration is required in an HTML document to ensure that the web browser renders the page correctly. Without it, the browser may interpret the page in quirks mode, which can result in inconsistent rendering across different browsers and versions.
+
+By including the <!DOCTYPE html> declaration, you are telling the browser to use the latest HTML standards and rendering rules. It helps ensure that your webpage is displayed consistently and correctly across different browsers and devices.

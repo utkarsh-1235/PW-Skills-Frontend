@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+</head>
+<style>
+  .player {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .player button {
+      padding: 10px;
+    }
+</style>
+<body>
+    <div class="player">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <audio src="./sample1.mp3" id="audio"></audio>
+    </div>
+    <script>
+          const music = document.getElementById('audio');
+          const play = document.getElementById('play');
+          const pause = document.getElementById('pause');
+
+          play.addEventListener('onclick',()=>{
+            music.play();
+          })
+          pause.addEventListener('onclick',()=>{
+            music.pause();
+          })
+    </script>
+</body>
+</html>
