@@ -1,0 +1,11 @@
+vw and vh are units of measurement in CSS that represent relative viewport dimensions. They are used to define sizes and lengths based on the size of the viewport, which is the visible area of the web page.
+
+Here's an explanation of each unit:
+
+VW (Viewport Width):
+vw represents a percentage of the viewport width. 1 vw is equal to 1% of the width of the viewport. For example, if the viewport width is 1000 pixels, 1 vw would be equal to 10 pixels (1% of 1000 pixels). By using vw, you can create fluid and responsive layouts that scale based on the width of the viewport.
+
+VH (Viewport Height):
+vh represents a percentage of the viewport height. 1 vh is equal to 1% of the height of the viewport. Similar to vw, vh allows you to define sizes and lengths that are relative to the height of the viewport. It's particularly useful for creating elements that adjust in size based on the height of the viewport.
+
+Using vw and vh units can help make your web design responsive and adapt to different screen sizes. They provide a way to specify lengths relative to the viewport, allowing elements to scale proportionally. By combining these units with CSS properties like width, height, margin, and padding, you can create flexible and dynamic layouts that respond to changes in the viewport dimensions.

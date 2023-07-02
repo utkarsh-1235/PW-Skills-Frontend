@@ -1,0 +1,29 @@
+Absolute Positioning:
+
+With position: absolute, an element is positioned relative to its nearest positioned ancestor (an ancestor with a position value other than static) or to the initial containing block if no positioned ancestor is found.
+Absolute positioning takes the element out of the normal document flow, meaning it doesn't affect the positioning of other elements.
+The element's position is defined using the top, right, bottom, and left properties.
+
+
+
+Relative Positioning:
+
+With position: relative, an element is positioned relative to its normal position in the document flow.
+Relative positioning does not remove the element from the normal flow, so it still affects the positioning of other elements.
+The element's position is defined using the top, right, bottom, and left properties, which offset the element from its normal position.
+
+
+
+Fixed Positioning:
+
+With position: fixed, an element is positioned relative to the viewport, meaning it remains fixed in its position even when the page is scrolled.
+Fixed positioning takes the element out of the normal document flow and does not affect the positioning of other elements.
+The element's position is defined using the top, right, bottom, and left properties, which offset the element from the edges of the viewport.
+
+
+
+Sticky Positioning:
+
+With position: sticky, an element is positioned based on its normal position in the document flow until a specified scroll threshold is reached, at which point it becomes fixed in its position.
+Sticky positioning is a hybrid of relative and fixed positioning.
+The element's position is defined using the top, right, bottom, and left properties, which offset the element from its normal position or the edges of its nearest scrolling ancestor.

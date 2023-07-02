@@ -1,0 +1,8 @@
+In CSS, the box-sizing property is used to control the box model calculation for an element. It determines how the width and height of an element are calculated, including the content, padding, and border.
+
+Content Box (Default):
+The default value of the box-sizing property is content-box. With this value, the width and height of an element are calculated by considering only the content area and excluding the padding and border. In other words, if you set a specific width or height for an element, the padding and border will be added to that width or height, resulting in the total dimensions of the element.
+
+Border Box:
+The box-sizing: border-box value changes the box model calculation. With this value, the width and height of an element are calculated by including the padding and border within the specified width and height. In other words, the padding and border are subtracted from the specified width or height, ensuring that the content area fits within the given dimensions.
+By using box-sizing: border-box, you have more control over the sizing and layout of elements. It allows you to specify the total dimensions of an element, including the content, padding, and border, without worrying about the calculations for each component. This can make it easier to create consistent and predictable layouts, especially when dealing with padding and border widths that may vary.

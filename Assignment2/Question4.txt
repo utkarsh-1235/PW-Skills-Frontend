@@ -1,0 +1,17 @@
+In CSS, "inline," "inline-block," and "block" are display property values that define how elements are rendered and how they interact with other elements on a web page.
+
+Inline:
+Elements with the display: inline property are rendered inline, meaning they flow within the normal text flow of a document. They do not create line breaks before or after themselves, and they only take up the necessary width and height to contain their content. Examples of inline elements are <span>, <a>, and <strong>. Inline elements cannot have fixed width or height, and margin and padding properties only affect the left and right sides (horizontal spacing) but not the top and bottom.
+
+Inline-Block:
+Elements with the display: inline-block property are rendered inline, just like inline elements, but they also behave like block-level elements in terms of box-model properties (such as width, height, margin, and padding). This means that inline-block elements can have fixed width and height, and their margin and padding properties affect all sides. They still flow within the text flow, allowing other elements to be displayed next to them horizontally. Examples of inline-block elements are <img>, <button>, and <input>.
+
+Block:
+Elements with the display: block property are rendered as block-level elements. They start on a new line and take up the entire width available by default. Block-level elements create line breaks before and after themselves, and their width can be explicitly set using CSS. They can have fixed width and height, and their margin and padding properties affect all sides. Examples of block-level elements are <div>, <p>, and <h1>-<h6>.
+
+To summarize:
+
+Inline elements flow within the text flow and only take up necessary width and height.
+Inline-block elements behave like inline elements but can have fixed width, height, and affect all sides with margin and padding.
+Block-level elements start on a new line, take up the entire available width by default, and can have fixed width, height, and affect all sides with margin and padding.
+By understanding and utilizing these display property values, you can control the layout and positioning of elements on your web page

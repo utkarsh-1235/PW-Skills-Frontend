@@ -1,0 +1,28 @@
+In CSS, the z-index property is used to control the stacking order of positioned elements on a web page along the z-axis. The z-axis represents the depth or stacking order of elements, with a higher z-index value indicating that an element is positioned on top of elements with lower z-index values.
+
+Here's how the z-index property functions:
+
+Stacking Context:
+Each positioned element (elements with position set to relative, absolute, or fixed) forms a stacking context. The stacking context determines the order in which elements are stacked relative to other elements within the same context.
+
+Stacking Order:
+Elements within the same stacking context are stacked based on their z-index values. An element with a higher z-index will be positioned above elements with lower z-index values within the same stacking context. If multiple elements have the same z-index, their stacking order is based on their position in the HTML document and the order in which they appear.
+
+Sibling Elements and Parent-Child Relationship:
+Sibling elements (elements with the same parent) and their stacking order are influenced by the z-index property. Elements with a higher z-index value will be positioned above their sibling elements with lower z-index values.
+
+For parent-child relationships, child elements are stacked above their parent element, regardless of the z-index values, unless the parent element has a higher z-index than its child. In that case, the child will be stacked below the parent, even if it has a higher z-index than its parent's siblings.
+
+Negative z-index Values:
+z-index can also accept negative values. Elements with negative z-index values are positioned behind elements with positive z-index values within the same stacking context.
+
+Stacking Order with Different Stacking Contexts:
+If an element is in a different stacking context than its sibling elements, its stacking order is determined by the stacking context itself. An element with a higher z-index value in a different stacking context can be positioned above elements in the sibling stacking contexts, regardless of their z-index values.
+
+It's important to note that the z-index property only applies to positioned elements. Elements with position: static (the default value) are not affected by z-index.
+
+By using the z-index property effectively, you can control the stacking order of elements and create layered layouts on your web page. However, it's crucial to consider the stacking contexts and hierarchy of elements to ensure the desired stacking order is achieved.
+
+
+
+
