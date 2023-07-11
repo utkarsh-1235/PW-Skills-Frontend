@@ -1,0 +1,18 @@
+The main difference between let and const in JavaScript is their behavior regarding reassignment and immutability.
+
+Reassignment:
+Variables declared with let can be reassigned with a new value. They are mutable.
+Variables declared with const cannot be reassigned after they are initialized. They are immutable.
+
+Initialization:
+Variables declared with let can be declared without an initial value. They will be assigned the value undefined until explicitly assigned a value.
+Variables declared with const must be initialized with a value at the time of declaration. They cannot be left uninitialized.
+
+Block Scope:
+Both let and const have block scope, meaning they are only accessible within the block they are declared in.
+Block scope refers to code blocks enclosed in curly braces { }, such as loops or if statements.
+
+
+Hoisting:
+Both let and const are hoisted to the top of their block scope during the compilation phase. However, they remain in the Temporal Dead Zone (TDZ) until their actual declarations.
+Accessing let or const variables before their declaration results in a ReferenceError.

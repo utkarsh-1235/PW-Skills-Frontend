@@ -1,0 +1,14 @@
+map and forEach are both methods available on arrays in JavaScript, but they serve different purposes and have different behaviors:
+
+Purpose:
+
+map: The map method is used to transform each element of an array and create a new array with the transformed values. It applies a provided function to each element of the array and returns a new array with the results.
+forEach: The forEach method is used to iterate over the elements of an array and perform a specified action or operation on each element. It does not create a new array; rather, it executes a function for each element of the array.
+Return Value:
+
+map: The map method returns a new array containing the results of applying the provided function to each element of the original array. The new array will have the same length as the original array.
+forEach: The forEach method does not return anything. It simply executes a function on each element of the array.
+Usage:
+
+map: The map method is commonly used when you want to transform an array into another array based on a certain logic or operation. It is useful when you need to perform a calculation or modification on each element and collect the results in a new array.
+forEach: The forEach method is useful when you want to perform an action or operation on each element of the array without creating a new array. It is commonly used for side effects, such as logging each element or updating the DOM.
