@@ -1,0 +1,19 @@
+To define a media query in CSS, you use the @media rule followed by a condition or set of conditions in parentheses. Here's the general syntax:
+
+Example:
+
+@media condition {
+  /* CSS rules to apply when the condition is true */
+}
+
+The condition inside the parentheses determines when the CSS rules within the media query will be applied. The condition can include various properties and values to target specific device characteristics. Some common properties used in media queries include width, height, orientation, resolution, and aspect-ratio.
+
+Here's an example that demonstrates how to define a media query for targeting a specific screen width:
+
+@media (max-width: 768px) {
+  /* CSS rules to apply when the screen width is 768 pixels or less */
+  body {
+    font-size: 14px;
+  }
+}
+

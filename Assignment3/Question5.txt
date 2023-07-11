@@ -1,0 +1,20 @@
+The purpose of the orientation media feature is to target and apply specific styles or layout rules based on the orientation of the device's screen. It allows you to differentiate between portrait and landscape orientations and customize the presentation of your website accordingly.
+
+The orientation media feature has two possible values: portrait and landscape. These values represent the two main orientations in which a device's screen can be oriented. The portrait value is used when the screen is taller than it is wide, while the landscape value is used when the screen is wider than it is tall.
+
+By utilizing the orientation media feature in CSS media queries, you can make adjustments to your website's layout, content positioning, and other visual aspects to ensure optimal display in both portrait and landscape orientations. 
+
+Here's an example:
+@media (orientation: portrait) {
+  /* CSS rules for portrait orientation */
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (orientation: landscape) {
+  /* CSS rules for landscape orientation */
+  body {
+    background-color: lightgreen;
+  }
+}

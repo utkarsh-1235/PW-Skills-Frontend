@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneCard</title>
+    <style>
+        *{
+            overflow: none;
+        }
+        .nav{
+            background-color: rgb(15, 19, 35);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .navul{
+            display: flex;
+            margin-left: 400px;
+            
+        }
+        .navul li{
+            list-style: none;
+            margin: 10px;
+            color: white;
+            font-weight: bold;
+        }
+        .btn{
+            border: none;
+            border-radius: 4px;
+            background-color: rgb(0, 89, 255);
+            height: 40px ;
+            width: 100px;
+            color: white;
+            font-weight: bold;
+            margin-left: 300px;
+        }
+        .left{
+            width: 40%;
+            margin-top: 100px;
+            margin-left: 40px;
+        }
+        .left h3{
+            font-size: 30px;
+        }
+        .oneCard{
+            margin-top: -30px;
+        }
+        .upper span{
+            color:rgb(0, 89, 255);
+            font-size: 50px;
+            padding: 10px;
+            padding-left: 0px;
+            
+        }
+        .middle{
+            margin-top: 10px;
+        }
+        .middle span{
+            color: rgb(0, 89, 255);
+            font-weight: 500;
+
+        }
+        .right{
+            margin-top: -200px;
+        }
+        
+        .imgRight{
+            height: 300px;
+            width: 700px;
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+        
+            <ul class="navul">
+                <li>Home</li>
+                <li>Blog</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <button class="btn">Login</button>
+        </div>
+    </header>
+
+    <Section class="left">
+        <div class="upper">
+            <h3>Say Hi To</h3>
+            <div class="oneCard">
+                
+                <span>One Card</span>
+            </div>
+        </div>
+        <div class="middle">
+            <span>Co-branded Card Issuers :</span>
+        </div>
+       
+        <div class="lower">
+            <p>India's best metal credit card. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user.
+            </p>
+        </div>
+    </Section>
+    
+    <section class="right">
+        <img src="./right1.jpg" alt="MetalOneCard" class="imgRight">
+    </section>
+</body>
+</html>

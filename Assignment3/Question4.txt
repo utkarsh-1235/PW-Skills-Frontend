@@ -1,0 +1,19 @@
+The purpose of using media queries for print media is to provide specific styles and layout rules that are optimized for printing documents from a webpage. When users choose to print a webpage, media queries can be used to target the print media type and apply CSS rules that optimize the content for printing.
+
+Here are some common use cases and benefits of using media queries for print media:
+
+Layout optimization: Media queries allow you to modify the layout and styling of the webpage specifically for printed output. This includes removing unnecessary elements, adjusting margins and paddings, and reorganizing content to ensure it fits well on printed pages.
+
+Font and color adjustments: Text readability is crucial in printed documents. Media queries enable you to specify different font sizes, font families, and colors that are optimized for printing. You can choose larger font sizes, adjust line heights, and ensure proper color contrast to improve legibility in printed output.
+
+Page breaks and pagination: Media queries for print media allow you to control page breaks and pagination. You can specify where page breaks should occur to avoid splitting content awkwardly between pages. Additionally, you can define headers, footers, and page numbering for the printed document.
+
+Hiding or displaying specific content: Media queries let you selectively hide or show certain elements in the printed output. You may choose to hide navigation menus, sidebars, or advertisements to declutter the printed document and provide a cleaner reading experience.
+
+Background and border removal: Background colors and borders that work well on a screen may not translate effectively to printed documents. Media queries enable you to remove or modify backgrounds and borders that are unnecessary or distracting when printing.
+
+By utilizing media queries for print media, you can customize the appearance of your webpage specifically for printed output, ensuring that the content is well-formatted, legible, and optimized for printing. This allows users to obtain high-quality printed versions of your web content that are visually appealing and easy to read.
+
+
+
+
